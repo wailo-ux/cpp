@@ -1,0 +1,28 @@
+:root {
+  --bg-dark: #0f172a;       /* Slate 900 */
+  --card-bg: #1e293b;       /* Slate 800 */
+  --card-border: #334155;   /* Slate 700 */
+  --text-primary: #f1f5f9;  /* Slate 100 */
+  --text-secondary: #94a3b8;/* Slate 400 */
+  --accent-green: #10b981;
+  --accent-red: #ef4444;
+  --accent-blue: #0ea5e9;
+  --accent-yellow: #f59e0b;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar Custom biar elegan */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--bg-dark); }
+::-webkit-scrollbar-thumb { background: var(--card-border); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-secondary); }
+
+h1, h2, h3 { margin: 0; font-weight: 600; }
