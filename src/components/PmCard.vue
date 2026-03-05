@@ -13,7 +13,7 @@
 
     <div class="pm-body">
       <div class="section">
-        <h4 class="section-title">⚡ Electrical</h4>
+        <h4 class="section-title">Electrical</h4>
         <div class="row"><span>Volt L-L</span> <strong>{{ data.volt_ll }} V</strong></div>
         <div class="row"><span>Volt L-N</span> <strong>{{ data.volt_ln }} V</strong></div>
         <div class="row"><span>Current Avg</span> <strong>{{ data.current_avg }} A</strong></div>
@@ -21,7 +21,7 @@
       </div>
 
       <div class="section border-left">
-        <h4 class="section-title">🔥 Power</h4>
+        <h4 class="section-title">Power</h4>
         <div class="row"><span>Active (P)</span> <strong class="text-green">{{ data.kw }} kW</strong></div>
         <div class="row"><span>Reactive (Q)</span> <strong class="text-yellow">{{ data.kvar }} kVAR</strong></div>
         <div class="row"><span>Apparent (S)</span> <strong class="text-blue">{{ data.kva }} kVA</strong></div>

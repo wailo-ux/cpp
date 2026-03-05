@@ -1,20 +1,20 @@
 <template>
   <aside class="sidebar">
     <div class="brand">
-      <div class="logo-icon">🏭</div>
+      <div class="logo-icon"></div>
       <div>
-        <h2>SCADA v2</h2>
-        <small class="subtitle">Factory Monitor</small>
+        <h2>CPP </h2>
+        <small class="subtitle">Monitoring</small>
       </div>
     </div>
     
     <nav class="menu">
       <p class="menu-label">DASHBOARD</p>
       <router-link to="/" class="menu-item">
-        <span class="icon">⚡</span> VFD Motor
+        <span class="icon"></span> VFD Motor
       </router-link>
       <router-link to="/power" class="menu-item">
-        <span class="icon">📊</span> Power Meter
+        <span class="icon"></span> Power Meter
       </router-link>
     </nav>
 
